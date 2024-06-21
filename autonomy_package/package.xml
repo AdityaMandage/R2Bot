@@ -1,0 +1,21 @@
+<package format="3">
+  <name>autonomy_package</name>
+  <version>0.0.0</version>
+  <description>Autonomy functionalities for the robot</description>
+  <maintainer email="your_email@example.com">your_name</maintainer>
+  <license>TODO: License declaration</license>
+
+  <buildtool_depend>ament_cmake</buildtool_depend>
+  <buildtool_depend>ament_python</buildtool_depend>
+  <build_depend>rclpy</build_depend>
+  <build_depend>geometry_msgs</build_depend>
+  <build_depend>yolo_msgs</build_depend>
+
+  <exec_depend>rclpy</exec_depend>
+  <exec_depend>geometry_msgs</exec_depend>
+  <exec_depend>yolo_msgs</exec_depend>
+
+  <export>
+    <build_type>ament_python</build_type>
+  </export>
+</package>
