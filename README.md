@@ -19,12 +19,10 @@ serial :
 	-  This packages is also prebuilt and we cloned it direclty and it worked.
 
 yolov8_ros :
-
 	- This package is made by us - it uses the yolov8 model to detect specified objects like - red ball, blue ball, silo and purple ball
 	- It subscribes to the '/image_raw' of our camera and publishes detection message in it there is Class_id, confidence and objects coordinates
 
-autonomy_package :
-
+autonomy_package 
 	- This is currently under development, in it we want to add fucntionality of bot to move autonomusly towards the specified ball and then pick it up and move to silo and drop in it.
 
 
